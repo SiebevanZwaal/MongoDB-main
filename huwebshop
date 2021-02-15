@@ -1,0 +1,5 @@
+mongoimport --db huwebshop --collection products --file products.json --legacy
+mongoimport --db huwebshop --collection sessions --file sessions.json --legacy
+mongoimport --db huwebshop --collection sessions --file profiles.json --legacy
+
+print('Hello Siebe')
